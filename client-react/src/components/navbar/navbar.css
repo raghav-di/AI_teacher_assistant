@@ -1,0 +1,43 @@
+#navbar {background-color: #011638; position: fixed; width: 100vw ;z-index: 2; height: 75px;display: flex;justify-content: center;align-items: center;}
+
+.ncclogo{ position: fixed;top: 1px; left:2px; width: 75px;z-index:2;}
+
+.ncclogopic {object-fit: fill;width: 75px;}
+
+#navbtndiv{position: fixed;top: 15px; right: 25px; display: flex; justify-content: center; align-items: center; padding: 4px;z-index:2;}
+
+.navoptpic{width: 40px; border-radius: 4px;z-index:2;}
+
+.navbt{display: none;z-index:2;}
+
+.navlabel{height: 50px; width: 50px;z-index:2;}
+
+.navlabel:hover{background-color: #ffffff34; border-radius: 4px;}
+
+#navbtndiv:active{background-color: #ffffff4d; border-radius: 4px;}
+
+#nav{ display: flex; justify-content: center; background-color: #011638; position: fixed; left: 0vw; top: 80px; width: 100%; display: none;z-index:2;}
+
+#navopt{ width: 95%; ;margin: 10px; border: white 2px solid;border-radius: 5px;align-self: center;z-index:2;}
+
+.opttxt{color: aliceblue;margin-left: 0px;margin-top: 4px; z-index:2;}
+
+.optbtn{background-color: #ffffff00;width: 100%;height: 40px; border: none;}
+
+.optbtn:hover{background-color: #ffffff6c; border-radius: 5px;border: solid;}
+
+.navoptnlink{text-decoration: none;}
+
+
+#navbtn:checked~#nav{display: block;}
+
+#navoptns{display: none;}
+
+.link{color: white;text-decoration: none;}
+
+.link:hover{color: rgb(0, 183, 255);}
+
+@media(min-width:600px){
+    #navbtndiv{display: none;}
+    #navoptns{display: flex; width: 360px;justify-content: space-between;}
+}

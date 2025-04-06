@@ -1,0 +1,8 @@
+#App {text-align: center;display: flex; flex-direction: column;}
+
+
+.about{margin-top:75px;z-index: 1;}
+
+.camps{margin-top:0px;z-index: 1;}
+
+.allphotos{margin-top:75px;z-index: 1;}
